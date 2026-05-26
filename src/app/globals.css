@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter);
+  --color-medvi-bg: #faf9f7;
+  --color-medvi-text: #242220;
+  --color-medvi-green: #2e936f;
+  --color-medvi-green-light: #e6f2ee;
+  --color-medvi-coral: #eb8771;
+  --color-medvi-coral-light: #fdece8;
+  --color-medvi-taupe: #a58979;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-medvi-bg);
+  color: var(--color-medvi-text);
+}
+
+/* Utilities for background removal illusion */
+.bg-remove-blend {
+  mix-blend-mode: multiply;
+  filter: contrast(1.05);
+}
