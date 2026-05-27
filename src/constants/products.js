@@ -44,5 +44,21 @@ export const products = {
     ingredients: ["Prebiotics", "Probiotics", "Multivitamin", "Multimineral", "KSM-66 Ashwagandha", "Brahmi"],
     sugarFree: true,
     brand: "MEDIMORBID"
+  },
+  amyPeptineSyp: {
+    title: "AmyPeptine Syp",
+    subtitle: "200 ml Bottle",
+    description: "Digestive Enzyme Syrup. Alpha Amylase and Papain formulation for effective digestion.",
+    images: [
+      "/images/amypeptine/DSC_0968.webp",
+      "/images/amypeptine/DSC_0968 (1).webp",
+      "/images/amypeptine/DSC_0968 (2).webp",
+      "/images/amypeptine/DSC_0968 (3).webp",
+      "/images/amypeptine/DSC_0968 (4).webp",
+      "/images/amypeptine/DSC_0968 (5).webp"
+    ],
+    ingredients: ["Alpha Amylase", "Papain", "Anise Oil", "Caraway Oil"],
+    sugarFree: false,
+    brand: "MEDIMORBID"
   }
 };

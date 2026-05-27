@@ -80,6 +80,7 @@ export default function EnquiryForm() {
                 <option value="CalciBites Suspension">CalciBites Suspension</option>
                 <option value="CalciBites Tablets">CalciBites Tablets</option>
                 <option value="i-NutriX Sachets">i-NutriX Sachets</option>
+                <option value="AmyPeptine Syp">AmyPeptine Syp</option>
                 <option value="Bulk Purchase / Partnership">Bulk Purchase / Partnership</option>
               </select>
             </div>

@@ -165,6 +165,11 @@ export default function ProductShowcase() {
             index={2} 
             accentColor="bg-[#e6f2ee]" 
           />
+          <ProductCard 
+            product={products.amyPeptineSyp} 
+            index={3} 
+            accentColor="bg-[#fef5e7]" 
+          />
         </div>
       </div>
     </section>
