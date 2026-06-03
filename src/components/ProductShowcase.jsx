@@ -170,6 +170,11 @@ export default function ProductShowcase() {
             index={3} 
             accentColor="bg-[#fef5e7]" 
           />
+          <ProductCard 
+            product={products.growBites} 
+            index={4} 
+            accentColor="bg-[#f3f0fc]" 
+          />
         </div>
       </div>
     </section>

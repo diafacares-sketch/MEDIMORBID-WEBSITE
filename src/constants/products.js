@@ -4,14 +4,16 @@ export const products = {
     subtitle: "200 ml Bottle",
     description: "Calcium Carbonate, Vitamin D3, Zinc Gluconate & Magnesium Hydroxide Suspension.",
     images: [
-      "/images/suspension/DSC_0968.webp",
       "/images/suspension/DSC_0968 (1).webp",
       "/images/suspension/DSC_0968 (2).webp",
       "/images/suspension/DSC_0968 (3).webp",
       "/images/suspension/DSC_0968 (4).webp",
-      "/images/suspension/DSC_0968 (5).webp"
+      "/images/suspension/DSC_0968 (5).webp",
+      "/images/suspension/DSC_0968 (6).webp"
     ],
-    ingredients: ["Calcium Carbonate", "Vitamin D3", "Zinc Gluconate", "Magnesium Hydroxide"]
+    ingredients: ["Calcium Carbonate", "Vitamin D3", "Zinc Gluconate", "Magnesium Hydroxide"],
+    sugarFree: false,
+    brand: "MEDIMORBID"
   },
   calciBitesTablets: {
     title: "CalciBites Tablets",
@@ -26,7 +28,9 @@ export const products = {
       "/images/tablets/DSC_0968 (5).webp",
       "/images/tablets/DSC_0968 (6).webp"
     ],
-    ingredients: ["Calcium Citrate", "Magnesium Hydroxide", "Zinc", "Vitamin D3"]
+    ingredients: ["Calcium Citrate", "Magnesium Hydroxide", "Zinc", "Vitamin D3"],
+    sugarFree: false,
+    brand: "MEDIMORBID"
   },
   iNutriX: {
     title: "i-NutriX",
@@ -37,7 +41,6 @@ export const products = {
       "/images/inutrix/DSC_0968 (1).webp",
       "/images/inutrix/DSC_0968 (2).webp",
       "/images/inutrix/DSC_0968 (3).webp",
-      "/images/inutrix/DSC_0968 (4).webp",
       "/images/inutrix/DSC_0968 (5).webp",
       "/images/inutrix/DSC_0968 (6).webp"
     ],
@@ -54,10 +57,23 @@ export const products = {
       "/images/amypeptine/DSC_0968 (1).webp",
       "/images/amypeptine/DSC_0968 (2).webp",
       "/images/amypeptine/DSC_0968 (3).webp",
-      "/images/amypeptine/DSC_0968 (4).webp",
-      "/images/amypeptine/DSC_0968 (5).webp"
+      "/images/amypeptine/DSC_0968 (4) (1).webp",
+      "/images/amypeptine/DSC_0968 (6).webp"
     ],
     ingredients: ["Alpha Amylase", "Papain", "Anise Oil", "Caraway Oil"],
+    sugarFree: false,
+    brand: "MEDIMORBID"
+  },
+  growBites: {
+    title: "Grow Bites",
+    subtitle: "Nutritional Supplement",
+    description: "Comprehensive nutritional support for growth and overall wellness.",
+    images: [
+      "/images/growbites/DSC_0968.webp",
+      "/images/growbites/DSC_0968 (2).webp",
+      "/images/growbites/DSC_0968 (3).webp"
+    ],
+    ingredients: ["Essential Vitamins", "Minerals", "Growth Factors"],
     sugarFree: false,
     brand: "MEDIMORBID"
   }
