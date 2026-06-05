@@ -35,6 +35,21 @@ export default function Footer() {
                 <a href="#about" className="hover:text-[#2e936f] transition-colors">About Us</a>
               </li>
             </ul>
+            <div className="mt-8 space-y-4">
+              <h4 className="text-lg font-bold text-[#242220]">Legal</h4>
+              <ul className="space-y-3">
+                <li>
+                  <Link href="/privacy" className="text-[#a58979] hover:text-[#2e936f] transition-colors">
+                    Privacy Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/terms" className="text-[#a58979] hover:text-[#2e936f] transition-colors">
+                    Terms & Conditions
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
 
           {/* Contact */}
