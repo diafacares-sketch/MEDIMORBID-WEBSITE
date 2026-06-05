@@ -37,7 +37,6 @@ export const products = {
     subtitle: "20 Sachets (5 gm each)",
     description: "Prebiotics, Probiotics, Multivitamin, Multimineral, KSM-66 Ashwagandha & Brahmi Sachets.",
     images: [
-      "/images/inutrix/DSC_0968.webp",
       "/images/inutrix/DSC_0968 (1).webp",
       "/images/inutrix/DSC_0968 (2).webp",
       "/images/inutrix/DSC_0968 (3).webp",
@@ -66,12 +65,12 @@ export const products = {
   },
   growBites: {
     title: "Grow Bites",
-    subtitle: "Nutritional Supplement",
-    description: "Comprehensive nutritional support for growth and overall wellness.",
+    subtitle: "Comprehensive Nutritional Support for Growth and overall Wellness for Child",
+    description: "A targeted formulation to ensure healthy development and daily nutritional support.",
     images: [
       "/images/growbites/DSC_0968.webp",
-      "/images/growbites/DSC_0968 (2).webp",
-      "/images/growbites/DSC_0968 (3).webp"
+      "/images/growbites/DSC_0968 (1).webp",
+      "/images/growbites/DSC_0968 (2).webp"
     ],
     ingredients: ["Essential Vitamins", "Minerals", "Growth Factors"],
     sugarFree: false,
