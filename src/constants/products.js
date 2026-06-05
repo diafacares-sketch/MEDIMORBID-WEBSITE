@@ -37,7 +37,6 @@ export const products = {
     subtitle: "20 Sachets (5 gm each)",
     description: "Prebiotics, Probiotics, Multivitamin, Multimineral, KSM-66 Ashwagandha & Brahmi Sachets.",
     images: [
-      "/images/inutrix/DSC_0968 (1).webp",
       "/images/inutrix/DSC_0968 (2).webp",
       "/images/inutrix/DSC_0968 (3).webp",
       "/images/inutrix/DSC_0968 (5).webp",

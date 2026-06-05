@@ -32,7 +32,7 @@ const ProductCarousel = ({ images, title }) => {
             src={images[currentIndex]}
             alt={`${title} - Image ${currentIndex + 1}`}
             fill
-            className="object-contain drop-shadow-2xl bg-remove-blend mix-blend-multiply filter brightness-105 contrast-125"
+            className="object-contain drop-shadow-2xl"
           />
         </motion.div>
       </AnimatePresence>
