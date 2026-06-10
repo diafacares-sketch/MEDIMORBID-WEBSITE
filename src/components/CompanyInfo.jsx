@@ -8,15 +8,6 @@ export default function CompanyInfo() {
   const [subscribed, setSubscribed] = useState(false);
   const [email, setEmail] = useState("");
 
-  const handleSubscribe = (e) => {
-    e.preventDefault();
-    if (email) {
-      setSubscribed(true);
-      setEmail("");
-      // In a real app, send email to backend here
-    }
-  };
-
   return (
     <section id="about" className="py-24 bg-[#faf9f7]">
       <div className="container mx-auto px-6 lg:px-8">
@@ -71,17 +62,29 @@ export default function CompanyInfo() {
               </p>
               
               {!subscribed ? (
-                <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-3">
+                <form 
+                  action="https://gmail.us6.list-manage.com/subscribe/post?u=0afa6535eb81f97e09a5feb29&id=45ee428ee3&f_id=00627de0f0" 
+                  method="post" 
+                  target="_blank"
+                  onSubmit={() => setTimeout(() => setSubscribed(true), 1000)}
+                  className="flex flex-col sm:flex-row gap-3"
+                >
                   <input
                     type="email"
+                    name="EMAIL"
                     required
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Enter your email address"
                     className="flex-1 rounded-2xl bg-[#faf9f7]/5 border border-[#faf9f7]/10 py-4 px-5 text-[#faf9f7] placeholder:text-[#a58979] focus:ring-2 focus:ring-[#2e936f] focus:outline-none"
                   />
+                  {/* Mailchimp hidden anti-bot field */}
+                  <div aria-hidden="true" style={{ position: 'absolute', left: '-5000px' }}>
+                    <input type="text" name="b_0afa6535eb81f97e09a5feb29_45ee428ee3" tabIndex="-1" defaultValue="" />
+                  </div>
                   <button
                     type="submit"
+                    name="subscribe"
                     className="rounded-2xl bg-[#2e936f] px-8 py-4 font-bold text-white hover:bg-[#257a5c] transition-colors whitespace-nowrap"
                   >
                     Notify Me
