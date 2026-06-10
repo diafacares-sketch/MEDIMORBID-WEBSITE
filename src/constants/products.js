@@ -69,7 +69,10 @@ export const products = {
     images: [
       "/images/growbites/DSC_0968.webp",
       "/images/growbites/DSC_0968 (1).webp",
-      "/images/growbites/DSC_0968 (2).webp"
+      "/images/growbites/DSC_0968 (2).webp",
+      "/images/growbites/DSC_0968 (3).webp",
+      "/images/growbites/DSC_0968 (4).webp",
+      "/images/growbites/DSC_0968 (5).webp"
     ],
     ingredients: ["Essential Vitamins", "Minerals", "Growth Factors"],
     sugarFree: false,
