@@ -8,8 +8,22 @@ import CustomCursor from "@/components/CustomCursor";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  metadataBase: new URL("https://medimorbid.com"),
   title: "MediMorbid LLP | Precision Formulation & Healthcare Excellence",
-  description: "MediMorbid LLP delivers high-quality pharmaceutical products including CalciBites and i-NutriX, manufactured in WHO-GMP & ISO certified facilities.",
+  description: "MediMorbid LLP delivers high-quality pharmaceutical products including CalciBites and i-NutriX, manufactured in WHO-GMP & ISO certified facilities in Ghaziabad.",
+  keywords: ["MediMorbid", "Pharmaceuticals Ghaziabad", "CalciBites", "i-NutriX", "AmyPeptine Syp", "Grow Bites", "Healthcare Formulation", "WHO-GMP", "Calcium Supplements", "Dietary Supplements"],
+  openGraph: {
+    title: "MediMorbid LLP | Healthcare Excellence",
+    description: "Clinician-guided pharmaceutical solutions designed to fit your life and deliver real results. Trusted and WHO-GMP certified.",
+    url: "https://medimorbid.com",
+    siteName: "MediMorbid LLP",
+    locale: "en_IN",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  }
 };
 
 export default function RootLayout({ children }) {
