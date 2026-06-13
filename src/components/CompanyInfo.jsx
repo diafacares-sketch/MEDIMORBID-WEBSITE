@@ -61,20 +61,18 @@ export default function CompanyInfo() {
                 Get notified about upcoming product launches, medical news, and exclusive health articles directly in your inbox.
               </p>
               
-              {!subscribed ? (
+              <div className={subscribed ? "hidden" : "block"}>
                 <form 
                   action="https://gmail.us6.list-manage.com/subscribe/post?u=0afa6535eb81f97e09a5feb29&id=45ee428ee3&f_id=00627de0f0" 
                   method="post" 
                   target="_blank"
-                  onSubmit={() => setTimeout(() => setSubscribed(true), 1000)}
+                  onSubmit={() => setTimeout(() => setSubscribed(true), 2000)}
                   className="flex flex-col sm:flex-row gap-3"
                 >
                   <input
                     type="email"
                     name="EMAIL"
                     required
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
                     placeholder="Enter your email address"
                     className="flex-1 rounded-2xl bg-[#faf9f7]/5 border border-[#faf9f7]/10 py-4 px-5 text-[#faf9f7] placeholder:text-[#a58979] focus:ring-2 focus:ring-[#2e936f] focus:outline-none"
                   />
@@ -90,11 +88,13 @@ export default function CompanyInfo() {
                     Notify Me
                   </button>
                 </form>
-              ) : (
+              </div>
+
+              {subscribed && (
                 <motion.div 
                   initial={{ opacity: 0, scale: 0.9 }}
                   animate={{ opacity: 1, scale: 1 }}
-                  className="rounded-2xl bg-[#2e936f]/20 border border-[#2e936f]/30 p-6 flex items-center gap-4"
+                  className="rounded-2xl bg-[#2e936f]/20 border border-[#2e936f]/30 p-6 flex items-center gap-4 mt-4"
                 >
                   <CheckCircle2 className="w-8 h-8 text-[#2e936f] shrink-0" />
                   <div>
